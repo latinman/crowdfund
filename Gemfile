@@ -12,6 +12,7 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 gem 'font-awesome-sass', '~> 4.5.0'
 gem 'simple_form'
 gem 'devise'
+gem 'auto_html', '~> 1.6'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
