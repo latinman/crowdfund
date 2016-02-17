@@ -42,6 +42,11 @@ class TasksController < ApplicationController
     end
   end
 
+  def change
+    task.update_attributes(state: params[:state])
+    redirect_to tasks_path, notice: "Task status successfully changed!"
+  end
+
   private
 
   def find_task
